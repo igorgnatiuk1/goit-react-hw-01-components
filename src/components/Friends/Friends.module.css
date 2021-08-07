@@ -1,0 +1,29 @@
+.item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.friend {
+    width: 340px;
+    margin: auto;
+}
+.name {
+    font-size: xx-large;
+}
+.span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.red {
+    composes: span;
+    background-color: red;
+}
+.green{
+    composes: span;
+    background-color: green;
+}
+.avatar{
+    margin-right: 10px;
+}
