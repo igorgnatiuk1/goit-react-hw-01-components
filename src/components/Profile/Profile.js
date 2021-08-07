@@ -14,7 +14,7 @@ const Profile = ({name, followers,avatar, tag, likes, location, views}) => (
                 className={style.avatar}
             />
             <p className={style.name}>{name}</p>
-            <p className={style.tag}>{tag}</p>
+            <p className={style.tag}>@{tag}</p>
             <p className="location">{location}</p>
         </div>
 
